@@ -14,7 +14,7 @@ root.render(
  {/*  <React.StrictMode>*/}
     <App />
     <Suspense fallback={null}>
-      <ThreedMenu/>
+      <hreedMenu/>
     </Suspense>
     <Loader />
   
