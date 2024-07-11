@@ -12,6 +12,10 @@ import News from "./pages/News";
 
 const App = () => {
   return (
+    <div>
+      <Navbar />
+    </div>
+    
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
