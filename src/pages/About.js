@@ -3,7 +3,6 @@ import Owner from "../pictures/Owner.png";
 
 const About = () => {
   const lightGreenColor = { color: "#99BC85" };
-  const lighterGreenColor = { color: "#BFD8AF" };
 
   return (
     <div style={{backgroundColor: "#E1F0DA"}} className="min-h-screen py-8">
@@ -37,6 +36,11 @@ const About = () => {
             We hope when you visit, you also enjoy our coffee, espresso, boba, sandwiches, and snacks</p>
         </section>
 
+        <section>
+          {/* Maybe a section for Our Location? */}
+          <h2 style={lightGreenColor} className="text-5xl font-bold mb-11">📍 Our Location</h2>
+          <p classNae="text-black">471 5th Ave, Brooklyn, NY 11215, United States</p>
+        </section>
       </div>
     </div>
     
