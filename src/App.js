@@ -9,12 +9,14 @@ import Schedule from "./pages/Schedule";
 import Feedback from "./pages/Feedback";
 import Menu from "./pages/Menu";
 import News from "./pages/News";
+import Home from "./pages/Home";
 
 const App = () => {
-  return (    
+  return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="boardgames" element={<BoardGameCollection />} />
           <Route path="reservations" element={<Reservations />} />
