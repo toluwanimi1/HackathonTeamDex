@@ -11,7 +11,7 @@ import Menu from "./pages/Menu";
 import News from "./pages/News";
 
 const App = () => {
-  return (
+  return (    
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
